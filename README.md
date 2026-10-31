@@ -64,59 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-scanbimlabs-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
+ScanBIM Labs provides spatial data tools for the AEC industry, enabling users to upload, view, and interact with 3D models and point clouds across many formats (Revit, Navisworks, IFC, DWG, FBX, E57, LAS, etc.) via a web browser or VR. Their platform includes a Model Context Protocol (MCP) API, a suite of tools for Autodesk, Procore, Trimble, and other construction software, and AI-driven features powered by Morpheon. The company offers a free tier and paid plans, with detailed documentation and a developer portal at scanbim.app.
 
-**Areas:** Company
+**Areas:** Company · AEC · SpatialData · 3DVisualization · API
 
 ## scanbimlabs-io on APIs.io
 
 Everything profiled for scanbimlabs-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scanbimlabs-io/](https://apis.io/providers/scanbimlabs-io/)** — or go straight to one of the APIs or properties below.
 
+### APIs (5)
+
+- [scanbimlabs-io Auth API](https://apis.io/apis/scanbimlabs-io/scanbimlabs-io-auth-api/) — The Auth API from scanbimlabs-io — 2 operation(s) for auth.
+- [scanbimlabs-io Cde API](https://apis.io/apis/scanbimlabs-io/scanbimlabs-io-cde-api/) — The Cde API from scanbimlabs-io — 1 operation(s) for cde.
+- [scanbimlabs-io Keys API](https://apis.io/apis/scanbimlabs-io/scanbimlabs-io-keys-api/) — The Keys API from scanbimlabs-io — 1 operation(s) for keys.
+- [scanbimlabs-io Morpheon API](https://apis.io/apis/scanbimlabs-io/scanbimlabs-io-morpheon-api/) — The Morpheon API from scanbimlabs-io — 3 operation(s) for morpheon.
+- [scanbimlabs-io Zapier API](https://apis.io/apis/scanbimlabs-io/scanbimlabs-io-zapier-api/) — The Zapier API from scanbimlabs-io — 1 operation(s) for zapier.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiMorpheonPersonasResponse](https://apis.io/schemas/scanbimlabs-io/scanbimlabs-io-get-api-morpheon-personas-response/)
+- [GetApiZapierTriggersUploadsResponse](https://apis.io/schemas/scanbimlabs-io/scanbimlabs-io-get-api-zapier-triggers-uploads-response/)
+- [PostApiAuthLoginRequest](https://apis.io/schemas/scanbimlabs-io/scanbimlabs-io-post-api-auth-login-request/)
+- [PostApiMorpheonChatRequest](https://apis.io/schemas/scanbimlabs-io/scanbimlabs-io-post-api-morpheon-chat-request/)
+- [PostApiMorpheonChatResponse](https://apis.io/schemas/scanbimlabs-io/scanbimlabs-io-post-api-morpheon-chat-response/)
+- [PostApiMorpheonMemoryRememberRequest](https://apis.io/schemas/scanbimlabs-io/scanbimlabs-io-post-api-morpheon-memory-remember-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Scanbimlabs Io Context](https://apis.io/jsonld/scanbimlabs-io/scanbimlabs-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [scanbimlabs-io API Rules](https://apis.io/rules/scanbimlabs-io/scanbimlabs-io-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Scanbimlabs Io Authentication](https://apis.io/security/scanbimlabs-io/scanbimlabs-io-authentication/)
 - [Scanbimlabs Io Domain Security](https://apis.io/security/scanbimlabs-io/scanbimlabs-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Scanbimlabs Io Plans Pricing](https://apis.io/plans/scanbimlabs-io/scanbimlabs-io-plans-pricing/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://scanbimlabs.io/)
+- [Documentation](https://scanbim.app/developers)
+- [API reference](https://scanbim.app/openapi.yaml)
+- [Pricing](https://scanbimlabs.io/#pricing)
+- [Blog](https://scanbimlabs.io/blog/)
+- [Terms of service](https://scanbimlabs.io/terms)
+- [Privacy policy](https://scanbimlabs.io/privacy-policy)
+- [Status](https://status.scanbimlabs.io/)
 
 ## API Evangelist rating
 
-**Kin Score 1.3** — minimal · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 53.2** — developing · rubric 0.25.0 · scored 2026-10-29
 
 | Facet | Score |
 |---|---|
-| Discoverability | 26.8 |
-| Contract quality | 0.0 |
-| Contract governance | 0.0 |
-| Operational transparency | 0.0 |
-| Developer ergonomics | 0.0 |
-| Access clarity | 0.0 |
+| Discoverability | 66.1 |
+| Contract quality | 48.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 60.0 |
 
-**Agent readiness 0.0** — human-only
+**Agent readiness 25.6** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
+| Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | — |
-| Auth Clarity | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
-| OpenAPI Examples | — |
+| OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -125,9 +170,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Operation Distinctiveness | distinct |
 
-**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scanbimlabs-io/](https://apis.io/providers/scanbimlabs-io/).
 
